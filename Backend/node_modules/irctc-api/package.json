@@ -1,0 +1,66 @@
+{
+  "name": "irctc-api",
+  "description": "An exclusive NodeJs only package built on top of IRCTC Website APIs to book train tickets, managing user profile faster and simpler from anywhere in the world",
+  "version": "3.0.6",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suryavaddiraju/irctc-api.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "irctc",
+    "api",
+    "irctc-api",
+    "indian",
+    "railway",
+    "railways",
+    "tatkal",
+    "booking",
+    "pnr",
+    "status",
+    "IR",
+    "IRCTC",
+    "train",
+    "rail",
+    "ticket",
+    "automate",
+    "software",
+    "module",
+    "package",
+    "fast"
+  ],
+  "author": {
+    "name": "Vaddiraju Surya Teja",
+    "email": "suryavaddiraju@proton.me",
+    "url": "http://github.com/suryavaddiraju"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/suryavaddiraju"
+  },
+  "bugs": {
+    "url": "https://github.com/suryavaddiraju/irctc-api/issues"
+  },
+  "homepage": "https://dev.vaddiraju.in/irctc-api",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    ".npmignore"
+  ],
+  "dependencies": {
+    "tough-cookie": "^5.0.0",
+    "undici": "^7.1.0"
+  },
+  "engines": {
+    "node": ">20.0.0",
+    "npm": ">10.0.0"
+  },
+  "main": "./lib/index.mjs",
+  "exports": "./lib/index.mjs",
+  "type": "module"
+}

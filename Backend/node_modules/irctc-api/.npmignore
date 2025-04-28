@@ -1,0 +1,11 @@
+.github/
+docs/
+examples/
+test/
+.gitignore
+captcha.jpg
+viu
+bin/
+viu.exe
+.log
+logs
