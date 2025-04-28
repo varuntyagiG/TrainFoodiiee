@@ -8,6 +8,7 @@ const getDetails = require("./Routes/getDetails");
 const cors = require("cors");
 const app = express();
 app.use(express.json());
+const port = process.env.PORT || 3000;
 
 app.use(
   cors({
@@ -21,4 +22,4 @@ app.use("/api/addOrders", addOrders);
 app.use("/api/email", sentEmail);
 app.use("/api/pnr", getDetails);
 
-app.listen(3000);
+app.listen(port);
